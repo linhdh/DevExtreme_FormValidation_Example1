@@ -1,5 +1,11 @@
 <h2 class="content-block">Home</h2>
 <div class="content-block">
-  <div class="dx-card responsive-paddings">  
+  <div class="dx-card responsive-paddings">
+    <dx-text-box mode="text">
+      <dx-validator>
+        <dxi-validation-rule type="pattern" [pattern]="versionPattern">         
+        </dxi-validation-rule>
+      </dx-validator>
+    </dx-text-box>
   </div>
 </div>

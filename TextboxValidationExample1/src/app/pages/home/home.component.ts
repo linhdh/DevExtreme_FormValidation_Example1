@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
 })
 
 export class HomeComponent {
+  versionPattern: RegExp = /^\d{1,4}\.\d{1,4}$|^\d{1,4}\.\d{1,4}\.\d{1,4}$|^\d{1,4}\.\d{1,4}\.\d{1,4}\.\d{1,4}$/gm;
+   
   constructor() {}
 }
